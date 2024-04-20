@@ -1,0 +1,106 @@
+h2 h4 {
+  color: blueviolet;
+	font-size: 20px;
+	font-family: serif;
+
+}
+   
+ body {
+  color: blue;        /* black */
+ background: blanchedalmond;
+}
+
+h1 {
+
+	color: red ;
+}
+a {
+	color:maroon;
+	transition: color 0.3s ease;
+
+}
+
+a:hover{
+     color: maroon ;
+}
+
+.img-circle { /* select all elements with the class="img-circle" */
+  border-radius: 50%;
+}
+
+.img-bordered {
+  border: 10px solid red;
+}
+
+div {
+	margin: 80px; 
+padding: 40px;
+border-top: 1px solid red;
+border-right: 2px dotted black;
+border-bottom: 1px dashed green;
+border-left: 2px dotted black;
+}
+div {
+
+	border-radius: 100px;
+
+}
+
+.perfect-circle {
+  width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+div{
+                         
+padding: 30px;                             
+border-radius: 4px;  
+box-shadow: 0 10px 30px rgba(0,0,0,.1);  
+
+}
+div{
+	box-shadow: 20px 20px 30px maroon;
+}
+
+.container {
+  width: 900px; 
+  margin: 40px auto; 
+}
+
+.text-center {
+  text-align: center;
+}
+.card-white {
+  
+  padding: 60px;
+  border: 1px solid lightgrey;
+}
+
+.list-inline {
+  list-style: inline; 
+  padding-left: 50px; 
+}
+.list-inline  {
+  display: inline; 
+  padding: 20px 20px; 
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
